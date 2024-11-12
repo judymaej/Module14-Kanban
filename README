@@ -1,0 +1,76 @@
+# Kanban Board Application with JWT Authentication
+
+This project is a Kanban board application that includes user authentication using JSON Web Tokens (JWT). Users can securely log in, access the board, and manage tasks.
+
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
+- [Support](#support)
+- [License](#license)
+- [Contact](#contact)
+
+## Description
+
+The Kanban Board Application is designed to help agile teams manage tasks efficiently. It provides a simple and intuitive interface for adding, updating, and deleting tasks within a Kanban-style layout. This application features secure user authentication, ensuring that only registered users can access the board. JWT-based authentication is implemented to protect routes, allowing users to perform actions when logged in.
+
+## Installation
+
+To set up this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone git clone https://github.com/your-username/kanban-board.git
+   ```
+2. Navigate to the project directory:
+
+```bash
+cd kanban-board
+```
+
+3. Install dependencies:
+
+```bash
+# Server
+cd server
+npm install
+
+# Client
+cd ../client
+npm install
+```
+
+4. Run the application:
+
+```bash
+npm i
+npm run seed
+npm run start: dev
+```
+
+## Technologies Used
+
+- Backend: Node.js, Express, JWT for authentication, bcrypt for password hashing.
+- Database: SQL
+- Frontend: React.js.
+- Deployment: Render (or other hosting provider).
+
+## Deployment
+
+Currently this application is failing to deploy on Render
+
+## **Support**
+
+In this project, I utilized peer support in the creating and organizing various files in the code. Specifically, the api routes in the src folder. My peer helped me organize code and resolve previous errors that prevented the server from running and becomming live.
+
+Additionally I used learning assistant generating code and error handling in the auth.ts in the middelware section, updating the Nabar.tsx, and the user-seeds.js file.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+GitHub: judymaej
